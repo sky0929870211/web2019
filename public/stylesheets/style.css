@@ -1,9 +1,51 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: red
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  font-family: "微軟正黑體";
+}
+
+.wrap{
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  
+  font-size: 30px;
 }
 
 a {
-  color: #00B7FF;
+
+  text-decoration: none;
 }
+
+.header ul li{
+  list-style-type: none;
+  float: right;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.content{
+  text-align: center;
+}
+
+.content input{
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.volleyball{
+  text-align: center;
+  float: left;
+  margin-right: 10%;
+}
+

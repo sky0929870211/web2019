@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> <%= title %> </title>
+    <title> 有個購物網 </title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAYM0aE5sHQwKsiPG7THuOSl0laJeXwaq8",
+        authDomain: "project-7f7b7.firebaseapp.com",
+        databaseURL: "https://project-7f7b7.firebaseio.com",
+        projectId: "project-7f7b7",
+        storageBucket: "project-7f7b7.appspot.com",
+        messagingSenderId: "787560727862"
+    };
+    firebase.initializeApp(config);
+    </script>
 </head>
-<body>
-    <header style="background:red;">hello</header>
-    <%- body %>
+<body>    
+        <a href="/"><h1>有個購物網</h1></a>
+        <%- body %>
+
+
 </body>
 </html>
