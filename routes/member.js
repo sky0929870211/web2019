@@ -73,12 +73,15 @@ router.post('/logindone', function (req, res, next) {
 });
 
 router.get('/cart', function (req, res, next) {
-    res.render('login',{message:'',isLogin:req.cookies.status});
+    if(req.cookies.status){
+        var str = '';
+        
+    }
 
 });
 
 router.get('/order', function (req, res, next) {
-    res.render('login',{message:'',isLogin:req.cookies.status});
+    res.render('order',{message:'',isLogin:req.cookies.status});
 
 });
 
